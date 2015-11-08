@@ -1,7 +1,7 @@
 # [Exploit] vBulletin 5.1.x - PreAuth Remote Code Execution
 
 **Exploit Title**  
-    - [Exploit] vBulletin 5.1.x - PreAuth Remote Code Execution 
+    - [Exploit] vBulletin 5.1.x - PreAuth Remote Code Execution  
 **Date**  
     - 11-09-2015  
 **Requirements**  
