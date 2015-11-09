@@ -62,8 +62,12 @@ def main():
     file_string  = ''
     final_result = []
     # Make sure urls.txt is in the same directory
-    with open( 'urls.txt' ) as f:
-        search_result = f.read().splitlines()
+    try:
+        with open( 'urls.txt' ) as f:
+            search_result = f.read().splitlines()
+    except:
+        print( 'urls.txt not found in the current directory. Create your own or download from here. http://makman.tk/vb/urls.txt\n' )
+        sys.exit(0)
     search_result = list( set( search_result ) )
     print (' [+] Executing Exploit for ' + Fore.RED + str( len( search_result ) ) + Fore.WHITE + ' Urls.\n')
     with Pool(8) as p:
