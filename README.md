@@ -11,9 +11,8 @@
 **CVE**  
     - CVE-2015-7808  
 **Blog Post**  
-    - http://mukarramkhalid.com/exploit-vbulletin-5-1-x-preauth-remote-code-execution/    
+    - https://mukarramkhalid.com/exploit-vbulletin-5-1-x-preauth-remote-code-execution/    
 
   
-![Preview]
-(http://mukarramkhalid.com/wp-content/uploads/2015/11/vb1.png)
+![Preview](https://mukarramkhalid.com/wp-content/uploads/2015/11/vb1.png)
 
