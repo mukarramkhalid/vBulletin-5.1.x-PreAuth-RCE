@@ -4,7 +4,7 @@
 # Tested on                 : Windows 8.1 / Ubuntu 14.04
 # CVE                       : CVE-2015-7808
 # Blog Post                 : http://mukarramkhalid.com/exploit-vbulletin-5-1-x-preauth-remote-code-execution/
-# Url list                  : http://makman.tk/vb/urls.txt
+# Url list                  : https://mukarramkhalid.com/assets/files/exploit-vbulletin-5-1-x-preauth-remote-code-execution/urls.txt
 
 import  requests, re, sys
 import  colorama
@@ -66,7 +66,7 @@ def main():
         with open( 'urls.txt' ) as f:
             search_result = f.read().splitlines()
     except:
-        print( 'urls.txt not found in the current directory. Create your own or download from here. http://makman.tk/vb/urls.txt\n' )
+        print( 'urls.txt not found in the current directory. Create your own or download from here. https://mukarramkhalid.com/assets/files/exploit-vbulletin-5-1-x-preauth-remote-code-execution/urls.txt\n' )
         sys.exit(0)
     search_result = list( set( search_result ) )
     print (' [+] Executing Exploit for ' + Fore.RED + str( len( search_result ) ) + Fore.WHITE + ' Urls.\n')
